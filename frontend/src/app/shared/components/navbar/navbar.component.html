@@ -2,7 +2,7 @@
 <nav 
   [class.scrolled]="isScrolled"
   class="fixed top-0 left-0 right-0 z-50 transition-all duration-500"
-  [ngClass]="isScrolled ? 'bg-slate-900/95 backdrop-blur-2xl border-b border-cyan-500/20 shadow-2xl shadow-cyan-500/10' : 'bg-slate-900/60 backdrop-blur-lg'">
+  [ngClass]="isScrolled ? 'bg-white/95 dark:bg-slate-900/95 backdrop-blur-2xl border-b border-slate-200 dark:border-cyan-500/20 shadow-2xl shadow-slate-300/50 dark:shadow-cyan-500/10' : 'bg-white/80 dark:bg-slate-900/60 backdrop-blur-lg'">
   
   <div class="container mx-auto px-6 py-3.5 max-w-7xl">
     <div class="flex items-center justify-between">
@@ -14,8 +14,8 @@
             <span class="text-white font-bold text-lg">RA</span>
           </div>
           <div class="hidden md:block">
-            <div class="text-white font-bold text-lg leading-none">Randeepa</div>
-            <div class="text-cyan-400 text-xs leading-none mt-0.5">Portfolio</div>
+            <div class="text-slate-900 dark:text-white font-bold text-lg leading-none">Randeepa</div>
+            <div class="text-cyan-600 dark:text-cyan-400 text-xs leading-none mt-0.5">Portfolio</div>
           </div>
         </div>
       </div>
@@ -25,7 +25,7 @@
         <a
           *ngFor="let item of menuItems"
           (click)="navigateTo(item.href)"
-          class="relative px-5 py-2 text-gray-300 hover:text-white transition-all duration-300 cursor-pointer font-medium group">
+          class="relative px-5 py-2 text-slate-700 hover:text-slate-900 dark:text-gray-300 dark:hover:text-white transition-all duration-300 cursor-pointer font-medium group">
           <span class="relative z-10">{{ item.label }}</span>
           <div class="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-cyan-500/10 rounded-lg opacity-0 group-hover:opacity-100 transition-all duration-300 scale-95 group-hover:scale-100"></div>
           <div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-0.5 bg-gradient-to-r from-blue-500 to-cyan-500 group-hover:w-3/4 transition-all duration-300"></div>
@@ -38,13 +38,13 @@
         <!-- Theme Toggle -->
         <button
           (click)="toggleTheme()"
-          class="p-2.5 rounded-lg bg-gradient-to-br from-slate-800/50 to-slate-700/50 hover:from-slate-700/70 hover:to-slate-600/70 border border-cyan-500/30 hover:border-cyan-400/50 transition-all duration-300 group shadow-lg shadow-cyan-500/10 hover:shadow-cyan-500/30"
+          class="p-2.5 rounded-lg bg-gradient-to-br from-slate-100 to-slate-200 hover:from-slate-200 hover:to-slate-300 dark:from-slate-800/50 dark:to-slate-700/50 dark:hover:from-slate-700/70 dark:hover:to-slate-600/70 border border-slate-300 hover:border-cyan-500/50 dark:border-cyan-500/30 dark:hover:border-cyan-400/50 transition-all duration-300 group shadow-lg shadow-slate-300/50 dark:shadow-cyan-500/10 hover:shadow-cyan-500/30"
           [title]="isDarkTheme ? 'Switch to Light Mode' : 'Switch to Dark Mode'">
           
           <!-- Sun Icon (Light Mode) -->
           <svg 
             *ngIf="!isDarkTheme"
-            class="w-5 h-5 text-yellow-400 group-hover:rotate-180 transition-transform duration-500" 
+            class="w-5 h-5 text-yellow-500 group-hover:rotate-180 transition-transform duration-500" 
             fill="none" 
             stroke="currentColor" 
             viewBox="0 0 24 24">
