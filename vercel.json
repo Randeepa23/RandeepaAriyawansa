@@ -2,7 +2,7 @@
   "buildCommand": "cd frontend && npm install && npm run build",
   "outputDirectory": "frontend/dist/portfolio/browser",
   "framework": null,
-  "installCommand": "npm install",
+  "installCommand": "echo 'Skipping root install'",
   "rewrites": [
     {
       "source": "/(.*)",
