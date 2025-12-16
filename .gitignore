@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+test/
+
+# Node modules
+frontend/node_modules/
+backend/node_modules/
+node_modules/
+
+# Angular build
+frontend/dist/
+frontend/.angular/
+
+# Old backup
+old_portfolio_backup/
+
+# Cleanup scripts (not needed in repository)
+cleanup.py
+cleanup.bat
+
+# Root-level duplicates (these should be in static folders)
+/0F0F799D-62B1-4FF6-A056-0471E5C85E69.JPG
+/animations.css
+/digeco-1-1024x586.png
+/download.jfif
+/index.html
+/index_modern.html
+/index_upgraded.html
+/main.py
+/modern-style.css
+/portfolio1.jpg
+/script.js
+/social media.jfif
+/style.css
+/util.css
+/Randeepa Ariyawansa_SE_Intern.pdf
+
+# VS Code
+.vscode/
+.history/
+
+# Flask
+instance/
+.webassets-cache
+
+# Log files
+*.log
+
+# Environment variables
+.env
+.flaskenv
+
+# Local development settings
+instance/
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
