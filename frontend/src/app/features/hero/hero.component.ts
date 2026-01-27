@@ -75,7 +75,7 @@ export class HeroComponent implements OnInit, OnDestroy {
     tagline: '4th Year Undergraduate | AI/ML Enthusiast',
     description: 'Passionate web developer and AI/ML enthusiast currently in my final year of undergraduate studies. I combine my love for building responsive web applications with cutting-edge machine learning technologies to create intelligent, user-centric solutions.',
     cvUrl: '/assets/files/MyCV.pdf',
-    photoUrl: '/assets/images/profile.jpg'
+    photoUrl: '/assets/images/profile.jpg?v=' + Date.now()
   };
 
   ngOnInit(): void {
