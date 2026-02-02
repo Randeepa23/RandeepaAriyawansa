@@ -120,7 +120,9 @@ img:not([src]) {
 /* Profile image positioning */
 .profile-image {
   object-position: center center;
-  transform: scale(0.8);
+  object-fit: cover;
+  border-radius: 50%;
+  transform: scale(1);
 }
 
 /* Button hover effects enhancement */
