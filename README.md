@@ -1,4 +1,4 @@
-# 🎨 Modern Portfolio Website
+# Modern Portfolio Website
 
 A professional, enterprise-grade portfolio built with **Angular 17**, **TypeScript**, and **Tailwind CSS**.
 
@@ -6,16 +6,16 @@ A professional, enterprise-grade portfolio built with **Angular 17**, **TypeScri
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.2-blue?logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-cyan?logo=tailwindcss)
 
-## ✨ Features
+##  Features
 
-✅ **Hero Section** with dynamic typing animation  
-✅ **Projects Gallery** with filterable cards  
-✅ **Glassmorphism UI** with smooth animations  
-✅ **Fully Responsive** design  
-✅ **No Backend Required** - purely client-side  
-✅ **Fast & Lightweight**  
+**Hero Section** with dynamic typing animation  
+**Projects Gallery** with filterable cards  
+**Glassmorphism UI** with smooth animations  
+**Fully Responsive** design  
+**No Backend Required** - purely client-side  
+**Fast & Lightweight**  
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Node.js 18+ and npm
@@ -36,7 +36,7 @@ npm start
 
 Open your browser at **http://localhost:4200** 🎉
 
-## 📝 Customization
+##  Customization
 
 ### 1. Update Your Info
 
@@ -70,7 +70,7 @@ Place your images in:
 - Profile photo: `frontend/src/assets/images/profile.jpg`
 - Project thumbnails: `frontend/src/assets/images/projects/`
 
-## 🎨 Color Customization
+##  Color Customization
 
 Edit `frontend/tailwind.config.js` to change colors:
 
@@ -83,7 +83,7 @@ colors: {
 }
 ```
 
-## 📦 Build for Production
+##  Build for Production
 
 ```bash
 cd frontend
@@ -92,7 +92,7 @@ npm run build:prod
 
 Output will be in `frontend/dist/portfolio-frontend/` - ready to deploy!
 
-## 🌐 Deployment
+##  Deployment
 
 ### Netlify / Vercel
 1. Build: `npm run build:prod`
@@ -105,7 +105,7 @@ ng build --prod --base-href "https://yourusername.github.io/portfolio/"
 ngh --dir=dist/portfolio-frontend
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 frontend/
@@ -123,23 +123,23 @@ frontend/
 └── package.json
 ```
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Angular 17** - Standalone components
 - **TypeScript 5.2** - Type safety
 - **Tailwind CSS 3.4** - Utility-first styling
 - **Angular Animations** - Smooth transitions
 
-## 📚 Learn More
+##  Learn More
 
 - [Angular Docs](https://angular.io/docs)
 - [Tailwind CSS Docs](https://tailwindcss.com/docs)
 - [Full Setup Guide](SETUP_GUIDE.md)
 
-## 📄 License
+##  License
 
 MIT License - Feel free to use for your portfolio!
 
 ---
 
-**Built with ❤️ using Angular & Tailwind CSS**
+**Built with using Angular & Tailwind CSS**
