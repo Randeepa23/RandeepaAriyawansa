@@ -34,7 +34,7 @@ npm install
 npm start
 ```
 
-Open your browser at **http://localhost:4200** 🎉
+Open your browser at **http://localhost:4200** 
 
 ##  Customization
 
